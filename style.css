@@ -1,0 +1,354 @@
+/* https://hridoy548.github.io/7thBuyerProject---BuilderSite/?fbclid=IwAR3qMDziN9yeQcDTNyKI9sxI1xmK7djmqB6Peqxm5SV8FEKo2V5yq895y9c# */
+h1{
+    /* font-family: 'Handlee', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header  */
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    box-shadow: 1px 2px 15px -1px black;
+}
+.navbar{
+    background-color: white;
+    padding: 0px;
+}
+.top-head{
+    background-color: #5DA140;
+    padding: 0px;
+    height: 40px;
+}
+.number{
+    text-align:center;
+    color: white;
+    padding: 2px;
+    margin-top: 7px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.email{
+    text-align:center;
+    color: white;
+    padding: 2px;
+    margin-top: 7px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand img{
+    width: 70px;
+    margin-left: 50px;
+}
+.navbar-nav{
+    margin-right: 90px;
+}
+.nav-item{
+    margin: 1px 6px;
+    
+}
+.nav-link{
+    color: rgba(0, 0, 0, .8) !important;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: .3s;    
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: #5DA140 !important;
+    font-weight: bold;
+}
+.nav-link:focus{
+    font-weight: bold;
+}
+
+/* banner design start  */
+
+
+.banner-bg{
+    background-color: rgba(93, 161, 64, .6) !important;
+    z-index: 1;
+}
+.for-padd{
+    padding: 17% 7%;
+}
+.caro-div{
+    text-align: center;
+    /* padding: 20% 7%; */
+    
+}
+.caro-div2{
+    background-image: url(images/Buildersblack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caro-div1{
+    background-image: url(images/Builders.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caro-div3{
+    background-image: url(images/buildsmob.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caro-div h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.caro-div p{
+    color: white;
+    font-size: 1.1rem;
+}
+.caro-div .con-btn{
+    color: white;
+    border: none;
+    background-color: rgba(93, 161, 64, 1) ;
+    padding: 8px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid white;
+    transition: .4s;
+}
+.caro-div .con-btn:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.icn{
+    border: 3px solid white;
+    font-weight: bold !important;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #5DA140;
+    width: 50px;  
+    z-index: 1;  
+}
+/* about design start  */
+
+.about-img img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#about{
+    padding: 5% 4%;
+}
+.about-div h3{
+    color: #5DA140;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.about-div p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.about-div .read-btn{
+    color: white;
+    border: none;
+    background-color: rgba(93, 161, 64, 1) ;
+    padding: 8px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid white;
+    transition: .4s;
+    margin-bottom: 5px;
+}
+.about-div .read-btn:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.about-div{
+    margin-top: 80px;
+}
+
+/* product design starts here  */
+
+#product{
+    padding: 5% 3%;
+}
+.heading h2{
+    color: #5DA140;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.heading h2::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #5DA140;
+    border-radius: 1000px;
+    position: absolute;
+    top: 40px;
+    left: 35%;
+
+}
+.card-div{    
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 1px 5px 16px -5px black;
+    margin-bottom: 15px;
+}
+.card-div img{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card-des{
+    text-align: center;
+}
+.card-des h4{
+    font-weight: bold;
+}
+.card-des i{
+    color: #5DA140;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.card-des button{
+    border: none;
+    background-color: #5DA140;
+    padding: 8px 20px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 12px;
+    transition: .4s;
+}
+.card-des button:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.seemorebtn{
+    text-align: center;
+    margin-top: 50px;
+}
+.for-explain{
+    color: white;
+    border: none;
+    background-color: rgba(93, 161, 64, 1) ;
+    padding: 8px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid white;
+    transition: .4s;
+}
+.for-explain:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/* quantity design starts here  */
+
+#quantity{    
+    background-color: #5DA140;  
+    padding: 3% 2%;  
+    margin: 4% 0px;
+}
+#quantity h2,h3{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cer-card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.cer-card{
+    border: 3px solid #5DA140;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* certificates design starts  */
+
+#certificete{
+    padding: 5% 3%;
+}
+
+/* reco start here  */
+#reco{
+    background-color: #5DA140;
+    padding: 2% 3%;
+}
+.headings h2{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.things img{
+    width: 100%;
+}
+.things{
+    background-color: white;
+    border-radius: 20px;    
+}
+/* service design  */
+#service{
+    padding: 5% 2%;
+}
+.ser-car img{
+    width: 100%;
+    border: 5px solid #5DA140;
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+}
+
+/* footer design start  */
+
+.up-footer{
+    background-color: #535959;
+    padding: 3% 2%;
+}
+.elements{
+    color: white;    
+}
+.elements a{
+    text-decoration: none;
+    color: white;
+    
+}
+.elements a i{
+    margin-right: 8px;
+}
+.elements ul{
+    display: block;
+
+}
+.elements ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid #5DA140;
+}
+.elements img{
+    width: 24px;
+    /* width: 100%; */
+}
+
+
